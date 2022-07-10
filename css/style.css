@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/Space+Wallpaper-01.png);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    padding: 20px 40px;
+}
+.logo{
+    color: white;
+    letter-spacing: 2px;
+}
+.vang{
+    color: #FFF89A;
+}
+.do{
+    color: #FF8AAE;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 18px;
+}
+.nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.content h3{
+    color: #FFF89A;
+}
+.content h4{
+    color: #FFF89A;
+    font-size: 28px;
+}
+.content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 18px;
+}
+.avt{
+    height: 350px;
+    width: 350px;
+    background-image: url(../img/avt1.jpg);
+    position: absolute;
+    top: 30%;
+    right: 8%;
+
+}
+.about{
+    width: 100%;
+    padding: 0 50px;
+    background-color: #2F2F42;
+    padding: 40px 60px;
+}
+.about-avt{
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/avt2.jpg);
+}
+.btn-about{
+    color: white;
+    background-color: #FF8AAE;
+    border: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50px;
+}
+.btn-about :hover{
+    background-color: #FFF89A;
+}
+.col-4 i{
+    color: #FF8AAE;
+}
+.col-4 h4{
+    color: #FF8AAE;
+}
+.skills{
+    padding: 40px 40px;
+}
+.skills h2{
+    color: #FF8AAE;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.pic{
+    position: relative;
+    height: 230px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.project{
+    position: relative;
+}
+input{
+    display: none;
+}
+.top-content{
+    background-color: #FF8AAE;
+    border-radius: 50px;
+    margin: 35px auto;
+    width: 30%;
+}
+
+.contact{
+    height: 120px;
+    background-color: #2F2F42;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+.contact h4{
+    color: #FF8AAE;
+    margin-bottom: 10px;
+}
+.contact i{
+    margin: 0 4px;
+}
+.contact p{
+    font-size: 12px;
+    margin: -10px 0;
+}
+
+.slide-in-elliptic-top-fwd {
+	animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+ @keyframes slide-in-elliptic-top-fwd {
+    0% {
+      transform: translateY(-600px) rotateX(-30deg) scale(0);
+      transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0) rotateX(0) scale(1);
+      transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  
+  
+  .tracking-in-contract {
+	animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #FF8AAE;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 24px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  .trang-con{
+    background-image: url(../img/Space+Wallpaper-01.png);
+    text-align: center;
+    justify-content: center;
+  }
+  .trang-con h3{
+    padding: 20px;
+  }
+  .gallery-box{
+    margin-top: 40px;
+  }
+  .gallery-btn{
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF8AAE;
+    margin-top: 45px;
+    font-size: 24px;
+  }
